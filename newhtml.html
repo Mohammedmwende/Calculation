@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>my registration </title>
+        
+            
+    </head>
+    <body>
+        <h3>Registration</h3>
+        <form name =" register_form" action="" method="POST"></form>
+            
+            Full name*:
+            <input type="text" required name="name" placeholder="Your name here"/>
+            <br><br>
+            
+            DOB:
+            <input type ="date" name="dob" required/>
+            <br><br>
+            Gender:
+            <input type="radio" required name="gender"/> male
+            <input type ="radio" required name ="gender"/> female
+            Email:
+            <input type="email" name="email" placeholder="Enter your email"/>
+            <br><br>
+            Your lucky no:
+            <input type ="number" name="lucky_number"/>
+            <br><br>
+            Select University:
+            <select name ="university" required>
+                <option value ="">---Select University---</option>
+                <option value="SU">Strathmore University</option>
+         <option value="SU">Strathmore University</option>
+          <option value="MKU">Mount Kenya University</option>
+           <option value="KU">Kenyatta University</option>
+            <option value="UON">University of Nairobi</option>
+            </select>
+            <br><br>
+            Select programming languages:
+            <input type="checkbox" name="cplusplus"/>C++
+            <input type="checkbox" name="java"/>Java
+            <br>
+            <input type ="checkbox" name="python"/>Python
+            <br><br>
+            Your web site link:
+            <input type ="url" name="link" placeholder="(jdbc:mysql://localhost:3306/ics2101"/>
+            <br><br>
+            
+            Describe yourself (max:200 characters):<br>
+            <textarea name="description" rows="5" cols="40" placeholder="write your description"> </textarea>
+            <br>
+            <input type="submit" value="Register">
+            
+            
+      
+    </body>
+    </html>
